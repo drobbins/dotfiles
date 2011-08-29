@@ -1,0 +1,477 @@
+
+chdir(/Applications/MacVim.app/Contents/Resources/vim)
+fchdir() to previous dir
+sourcing "$VIM/vimrc"
+finished sourcing $VIM/vimrc
+chdir(/Users/davidrobbins)
+fchdir() to previous dir
+could not source "$HOME/.vimrc"
+chdir(/Users/davidrobbins)
+fchdir() to previous dir
+could not source "$HOME/.exrc"
+Searching for "plugin/**/*.vim" in "/Users/davidrobbins/.vim,/Applications/MacVim.app/Contents/Resources/vim/vimfiles,/Applications/MacVim.app/Contents/Resources/vim/runtime,/Applications/MacVim.app/Contents/Resources/vim/vimfiles/after,/Users/davidrobbins/.vim/after"
+Searching for "/Users/davidrobbins/.vim/plugin/**/*.vim"
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/vimfiles/plugin/**/*.vim"
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/runtime/plugin/**/*.vim"
+chdir(/Applications/MacVim.app/Contents/Resources/vim/runtime/plugin)
+fchdir() to previous dir
+sourcing "/Applications/MacVim.app/Contents/Resources/vim/runtime/plugin/getscriptPlugin.vim"
+finished sourcing /Applications/MacVim.app/Contents/Resources/vim/runtime/plugin/getscriptPlugin.vim
+chdir(/Applications/MacVim.app/Contents/Resources/vim/runtime/plugin)
+fchdir() to previous dir
+sourcing "/Applications/MacVim.app/Contents/Resources/vim/runtime/plugin/gzip.vim"
+finished sourcing /Applications/MacVim.app/Contents/Resources/vim/runtime/plugin/gzip.vim
+chdir(/Applications/MacVim.app/Contents/Resources/vim/runtime/plugin)
+fchdir() to previous dir
+sourcing "/Applications/MacVim.app/Contents/Resources/vim/runtime/plugin/matchparen.vim"
+finished sourcing /Applications/MacVim.app/Contents/Resources/vim/runtime/plugin/matchparen.vim
+chdir(/Applications/MacVim.app/Contents/Resources/vim/runtime/plugin)
+fchdir() to previous dir
+sourcing "/Applications/MacVim.app/Contents/Resources/vim/runtime/plugin/netrwPlugin.vim"
+finished sourcing /Applications/MacVim.app/Contents/Resources/vim/runtime/plugin/netrwPlugin.vim
+chdir(/Applications/MacVim.app/Contents/Resources/vim/runtime/plugin)
+fchdir() to previous dir
+sourcing "/Applications/MacVim.app/Contents/Resources/vim/runtime/plugin/rrhelper.vim"
+finished sourcing /Applications/MacVim.app/Contents/Resources/vim/runtime/plugin/rrhelper.vim
+chdir(/Applications/MacVim.app/Contents/Resources/vim/runtime/plugin)
+fchdir() to previous dir
+sourcing "/Applications/MacVim.app/Contents/Resources/vim/runtime/plugin/spellfile.vim"
+finished sourcing /Applications/MacVim.app/Contents/Resources/vim/runtime/plugin/spellfile.vim
+chdir(/Applications/MacVim.app/Contents/Resources/vim/runtime/plugin)
+fchdir() to previous dir
+sourcing "/Applications/MacVim.app/Contents/Resources/vim/runtime/plugin/tarPlugin.vim"
+finished sourcing /Applications/MacVim.app/Contents/Resources/vim/runtime/plugin/tarPlugin.vim
+chdir(/Applications/MacVim.app/Contents/Resources/vim/runtime/plugin)
+fchdir() to previous dir
+sourcing "/Applications/MacVim.app/Contents/Resources/vim/runtime/plugin/tohtml.vim"
+finished sourcing /Applications/MacVim.app/Contents/Resources/vim/runtime/plugin/tohtml.vim
+chdir(/Applications/MacVim.app/Contents/Resources/vim/runtime/plugin)
+fchdir() to previous dir
+sourcing "/Applications/MacVim.app/Contents/Resources/vim/runtime/plugin/vimballPlugin.vim"
+finished sourcing /Applications/MacVim.app/Contents/Resources/vim/runtime/plugin/vimballPlugin.vim
+chdir(/Applications/MacVim.app/Contents/Resources/vim/runtime/plugin)
+fchdir() to previous dir
+sourcing "/Applications/MacVim.app/Contents/Resources/vim/runtime/plugin/zipPlugin.vim"
+finished sourcing /Applications/MacVim.app/Contents/Resources/vim/runtime/plugin/zipPlugin.vim
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/vimfiles/after/plugin/**/*.vim"
+Searching for "/Users/davidrobbins/.vim/after/plugin/**/*.vim"
+chdir(/Applications/MacVim.app/Contents/Resources/vim/runtime)
+fchdir() to previous dir
+sourcing "$VIMRUNTIME/menu.vim"
+Searching for "autoload/paste.vim" in "/Users/davidrobbins/.vim,/Applications/MacVim.app/Contents/Resources/vim/vimfiles,/Applications/MacVim.app/Contents/Resources/vim/runtime,/Applications/MacVim.app/Contents/Resources/vim/vimfiles/after,/Users/davidrobbins/.vim/after"
+Searching for "/Users/davidrobbins/.vim/autoload/paste.vim"
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/vimfiles/autoload/paste.vim"
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/runtime/autoload/paste.vim"
+chdir(/Applications/MacVim.app/Contents/Resources/vim/runtime/autoload)
+fchdir() to previous dir
+line 194: sourcing "/Applications/MacVim.app/Contents/Resources/vim/runtime/autoload/paste.vim"
+finished sourcing /Applications/MacVim.app/Contents/Resources/vim/runtime/autoload/paste.vim
+continuing in /Applications/MacVim.app/Contents/Resources/vim/runtime/menu.vim
+Error detected while processing function <SNR>12_BMShow:
+line   12:
+E329: No menu "&Buffers"
+Error detected while processing function <SNR>12_BMShow:
+line   14:
+E328: Menu only exists in another mode
+finished sourcing $VIMRUNTIME/menu.vim
+chdir(/Applications/MacVim.app/Contents/Resources/vim)
+fchdir() to previous dir
+sourcing "$VIM/gvimrc"
+chdir(/Applications/MacVim.app/Contents/Resources/vim/runtime/syntax)
+fchdir() to previous dir
+line 21: sourcing "/Applications/MacVim.app/Contents/Resources/vim/runtime/syntax/syntax.vim"
+Searching for "syntax/synload.vim" in "/Users/davidrobbins/.vim,/Applications/MacVim.app/Contents/Resources/vim/vimfiles,/Applications/MacVim.app/Contents/Resources/vim/runtime,/Applications/MacVim.app/Contents/Resources/vim/vimfiles/after,/Users/davidrobbins/.vim/after"
+Searching for "/Users/davidrobbins/.vim/syntax/synload.vim"
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/vimfiles/syntax/synload.vim"
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/runtime/syntax/synload.vim"
+chdir(/Applications/MacVim.app/Contents/Resources/vim/runtime/syntax)
+fchdir() to previous dir
+line 19: sourcing "/Applications/MacVim.app/Contents/Resources/vim/runtime/syntax/synload.vim"
+Searching for "syntax/syncolor.vim" in "/Users/davidrobbins/.vim,/Applications/MacVim.app/Contents/Resources/vim/vimfiles,/Applications/MacVim.app/Contents/Resources/vim/runtime,/Applications/MacVim.app/Contents/Resources/vim/vimfiles/after,/Users/davidrobbins/.vim/after"
+Searching for "/Users/davidrobbins/.vim/syntax/syncolor.vim"
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/vimfiles/syntax/syncolor.vim"
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/runtime/syntax/syncolor.vim"
+chdir(/Applications/MacVim.app/Contents/Resources/vim/runtime/syntax)
+fchdir() to previous dir
+line 21: sourcing "/Applications/MacVim.app/Contents/Resources/vim/runtime/syntax/syncolor.vim"
+finished sourcing /Applications/MacVim.app/Contents/Resources/vim/runtime/syntax/syncolor.vim
+continuing in /Applications/MacVim.app/Contents/Resources/vim/runtime/syntax/synload.vim
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/vimfiles/after/syntax/syncolor.vim"
+Searching for "/Users/davidrobbins/.vim/after/syntax/syncolor.vim"
+finished sourcing /Applications/MacVim.app/Contents/Resources/vim/runtime/syntax/synload.vim
+continuing in /Applications/MacVim.app/Contents/Resources/vim/runtime/syntax/syntax.vim
+Searching for "filetype.vim" in "/Users/davidrobbins/.vim,/Applications/MacVim.app/Contents/Resources/vim/vimfiles,/Applications/MacVim.app/Contents/Resources/vim/runtime,/Applications/MacVim.app/Contents/Resources/vim/vimfiles/after,/Users/davidrobbins/.vim/after"
+Searching for "/Users/davidrobbins/.vim/filetype.vim"
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/vimfiles/filetype.vim"
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/runtime/filetype.vim"
+chdir(/Applications/MacVim.app/Contents/Resources/vim/runtime)
+fchdir() to previous dir
+line 25: sourcing "/Applications/MacVim.app/Contents/Resources/vim/runtime/filetype.vim"
+Searching for "ftdetect/*.vim" in "/Users/davidrobbins/.vim,/Applications/MacVim.app/Contents/Resources/vim/vimfiles,/Applications/MacVim.app/Contents/Resources/vim/runtime,/Applications/MacVim.app/Contents/Resources/vim/vimfiles/after,/Users/davidrobbins/.vim/after"
+Searching for "/Users/davidrobbins/.vim/ftdetect/*.vim"
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/vimfiles/ftdetect/*.vim"
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/runtime/ftdetect/*.vim"
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/vimfiles/after/ftdetect/*.vim"
+Searching for "/Users/davidrobbins/.vim/after/ftdetect/*.vim"
+not found in 'runtimepath': "ftdetect/*.vim"
+chdir(/Applications/MacVim.app/Contents/Resources/vim/runtime)
+fchdir() to previous dir
+line 2543: sourcing "/Applications/MacVim.app/Contents/Resources/vim/runtime/menu.vim"
+finished sourcing /Applications/MacVim.app/Contents/Resources/vim/runtime/menu.vim
+continuing in /Applications/MacVim.app/Contents/Resources/vim/runtime/filetype.vim
+finished sourcing /Applications/MacVim.app/Contents/Resources/vim/runtime/filetype.vim
+continuing in /Applications/MacVim.app/Contents/Resources/vim/runtime/syntax/syntax.vim
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/vimfiles/after/filetype.vim"
+Searching for "/Users/davidrobbins/.vim/after/filetype.vim"
+finished sourcing /Applications/MacVim.app/Contents/Resources/vim/runtime/syntax/syntax.vim
+continuing in /Applications/MacVim.app/Contents/Resources/vim/gvimrc
+Searching for "colors/macvim.vim" in "/Users/davidrobbins/.vim,/Applications/MacVim.app/Contents/Resources/vim/vimfiles,/Applications/MacVim.app/Contents/Resources/vim/runtime,/Applications/MacVim.app/Contents/Resources/vim/vimfiles/after,/Users/davidrobbins/.vim/after"
+Searching for "/Users/davidrobbins/.vim/colors/macvim.vim"
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/vimfiles/colors/macvim.vim"
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/runtime/colors/macvim.vim"
+chdir(/Applications/MacVim.app/Contents/Resources/vim/runtime/colors)
+fchdir() to previous dir
+line 26: sourcing "/Applications/MacVim.app/Contents/Resources/vim/runtime/colors/macvim.vim"
+Searching for "syntax/syncolor.vim" in "/Users/davidrobbins/.vim,/Applications/MacVim.app/Contents/Resources/vim/vimfiles,/Applications/MacVim.app/Contents/Resources/vim/runtime,/Applications/MacVim.app/Contents/Resources/vim/vimfiles/after,/Users/davidrobbins/.vim/after"
+Searching for "/Users/davidrobbins/.vim/syntax/syncolor.vim"
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/vimfiles/syntax/syncolor.vim"
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/runtime/syntax/syncolor.vim"
+chdir(/Applications/MacVim.app/Contents/Resources/vim/runtime/syntax)
+fchdir() to previous dir
+line 11: sourcing "/Applications/MacVim.app/Contents/Resources/vim/runtime/syntax/syncolor.vim"
+finished sourcing /Applications/MacVim.app/Contents/Resources/vim/runtime/syntax/syncolor.vim
+continuing in /Applications/MacVim.app/Contents/Resources/vim/runtime/colors/macvim.vim
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/vimfiles/after/syntax/syncolor.vim"
+Searching for "/Users/davidrobbins/.vim/after/syntax/syncolor.vim"
+Searching for "syntax/syncolor.vim" in "/Users/davidrobbins/.vim,/Applications/MacVim.app/Contents/Resources/vim/vimfiles,/Applications/MacVim.app/Contents/Resources/vim/runtime,/Applications/MacVim.app/Contents/Resources/vim/vimfiles/after,/Users/davidrobbins/.vim/after"
+Searching for "/Users/davidrobbins/.vim/syntax/syncolor.vim"
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/vimfiles/syntax/syncolor.vim"
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/runtime/syntax/syncolor.vim"
+chdir(/Applications/MacVim.app/Contents/Resources/vim/runtime/syntax)
+fchdir() to previous dir
+line 15: sourcing "/Applications/MacVim.app/Contents/Resources/vim/runtime/syntax/syncolor.vim"
+finished sourcing /Applications/MacVim.app/Contents/Resources/vim/runtime/syntax/syncolor.vim
+continuing in /Applications/MacVim.app/Contents/Resources/vim/runtime/colors/macvim.vim
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/vimfiles/after/syntax/syncolor.vim"
+Searching for "/Users/davidrobbins/.vim/after/syntax/syncolor.vim"
+finished sourcing /Applications/MacVim.app/Contents/Resources/vim/runtime/colors/macvim.vim
+continuing in /Applications/MacVim.app/Contents/Resources/vim/gvimrc
+finished sourcing $VIM/gvimrc
+chdir(/Users/davidrobbins)
+fchdir() to previous dir
+could not source "$HOME/.gvimrc"
+Searching for "bitmaps/Open.png" in "/Users/davidrobbins/.vim,/Applications/MacVim.app/Contents/Resources/vim/vimfiles,/Applications/MacVim.app/Contents/Resources/vim/runtime,/Applications/MacVim.app/Contents/Resources/vim/vimfiles/after,/Users/davidrobbins/.vim/after"
+Searching for "/Users/davidrobbins/.vim/bitmaps/Open.png"
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/vimfiles/bitmaps/Open.png"
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/runtime/bitmaps/Open.png"
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/vimfiles/after/bitmaps/Open.png"
+Searching for "/Users/davidrobbins/.vim/after/bitmaps/Open.png"
+not found in 'runtimepath': "bitmaps/Open.png"
+Searching for "bitmaps/Open.bmp" in "/Users/davidrobbins/.vim,/Applications/MacVim.app/Contents/Resources/vim/vimfiles,/Applications/MacVim.app/Contents/Resources/vim/runtime,/Applications/MacVim.app/Contents/Resources/vim/vimfiles/after,/Users/davidrobbins/.vim/after"
+Searching for "/Users/davidrobbins/.vim/bitmaps/Open.bmp"
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/vimfiles/bitmaps/Open.bmp"
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/runtime/bitmaps/Open.bmp"
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/vimfiles/after/bitmaps/Open.bmp"
+Searching for "/Users/davidrobbins/.vim/after/bitmaps/Open.bmp"
+not found in 'runtimepath': "bitmaps/Open.bmp"
+Searching for "bitmaps/Save.png" in "/Users/davidrobbins/.vim,/Applications/MacVim.app/Contents/Resources/vim/vimfiles,/Applications/MacVim.app/Contents/Resources/vim/runtime,/Applications/MacVim.app/Contents/Resources/vim/vimfiles/after,/Users/davidrobbins/.vim/after"
+Searching for "/Users/davidrobbins/.vim/bitmaps/Save.png"
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/vimfiles/bitmaps/Save.png"
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/runtime/bitmaps/Save.png"
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/vimfiles/after/bitmaps/Save.png"
+Searching for "/Users/davidrobbins/.vim/after/bitmaps/Save.png"
+not found in 'runtimepath': "bitmaps/Save.png"
+Searching for "bitmaps/Save.bmp" in "/Users/davidrobbins/.vim,/Applications/MacVim.app/Contents/Resources/vim/vimfiles,/Applications/MacVim.app/Contents/Resources/vim/runtime,/Applications/MacVim.app/Contents/Resources/vim/vimfiles/after,/Users/davidrobbins/.vim/after"
+Searching for "/Users/davidrobbins/.vim/bitmaps/Save.bmp"
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/vimfiles/bitmaps/Save.bmp"
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/runtime/bitmaps/Save.bmp"
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/vimfiles/after/bitmaps/Save.bmp"
+Searching for "/Users/davidrobbins/.vim/after/bitmaps/Save.bmp"
+not found in 'runtimepath': "bitmaps/Save.bmp"
+Searching for "bitmaps/SaveAll.png" in "/Users/davidrobbins/.vim,/Applications/MacVim.app/Contents/Resources/vim/vimfiles,/Applications/MacVim.app/Contents/Resources/vim/runtime,/Applications/MacVim.app/Contents/Resources/vim/vimfiles/after,/Users/davidrobbins/.vim/after"
+Searching for "/Users/davidrobbins/.vim/bitmaps/SaveAll.png"
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/vimfiles/bitmaps/SaveAll.png"
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/runtime/bitmaps/SaveAll.png"
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/vimfiles/after/bitmaps/SaveAll.png"
+Searching for "/Users/davidrobbins/.vim/after/bitmaps/SaveAll.png"
+not found in 'runtimepath': "bitmaps/SaveAll.png"
+Searching for "bitmaps/SaveAll.bmp" in "/Users/davidrobbins/.vim,/Applications/MacVim.app/Contents/Resources/vim/vimfiles,/Applications/MacVim.app/Contents/Resources/vim/runtime,/Applications/MacVim.app/Contents/Resources/vim/vimfiles/after,/Users/davidrobbins/.vim/after"
+Searching for "/Users/davidrobbins/.vim/bitmaps/SaveAll.bmp"
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/vimfiles/bitmaps/SaveAll.bmp"
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/runtime/bitmaps/SaveAll.bmp"
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/vimfiles/after/bitmaps/SaveAll.bmp"
+Searching for "/Users/davidrobbins/.vim/after/bitmaps/SaveAll.bmp"
+not found in 'runtimepath': "bitmaps/SaveAll.bmp"
+Searching for "bitmaps/Print.png" in "/Users/davidrobbins/.vim,/Applications/MacVim.app/Contents/Resources/vim/vimfiles,/Applications/MacVim.app/Contents/Resources/vim/runtime,/Applications/MacVim.app/Contents/Resources/vim/vimfiles/after,/Users/davidrobbins/.vim/after"
+Searching for "/Users/davidrobbins/.vim/bitmaps/Print.png"
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/vimfiles/bitmaps/Print.png"
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/runtime/bitmaps/Print.png"
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/vimfiles/after/bitmaps/Print.png"
+Searching for "/Users/davidrobbins/.vim/after/bitmaps/Print.png"
+not found in 'runtimepath': "bitmaps/Print.png"
+Searching for "bitmaps/Print.bmp" in "/Users/davidrobbins/.vim,/Applications/MacVim.app/Contents/Resources/vim/vimfiles,/Applications/MacVim.app/Contents/Resources/vim/runtime,/Applications/MacVim.app/Contents/Resources/vim/vimfiles/after,/Users/davidrobbins/.vim/after"
+Searching for "/Users/davidrobbins/.vim/bitmaps/Print.bmp"
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/vimfiles/bitmaps/Print.bmp"
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/runtime/bitmaps/Print.bmp"
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/vimfiles/after/bitmaps/Print.bmp"
+Searching for "/Users/davidrobbins/.vim/after/bitmaps/Print.bmp"
+not found in 'runtimepath': "bitmaps/Print.bmp"
+Searching for "bitmaps/-sep1-.png" in "/Users/davidrobbins/.vim,/Applications/MacVim.app/Contents/Resources/vim/vimfiles,/Applications/MacVim.app/Contents/Resources/vim/runtime,/Applications/MacVim.app/Contents/Resources/vim/vimfiles/after,/Users/davidrobbins/.vim/after"
+Searching for "/Users/davidrobbins/.vim/bitmaps/-sep1-.png"
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/vimfiles/bitmaps/-sep1-.png"
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/runtime/bitmaps/-sep1-.png"
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/vimfiles/after/bitmaps/-sep1-.png"
+Searching for "/Users/davidrobbins/.vim/after/bitmaps/-sep1-.png"
+not found in 'runtimepath': "bitmaps/-sep1-.png"
+Searching for "bitmaps/-sep1-.bmp" in "/Users/davidrobbins/.vim,/Applications/MacVim.app/Contents/Resources/vim/vimfiles,/Applications/MacVim.app/Contents/Resources/vim/runtime,/Applications/MacVim.app/Contents/Resources/vim/vimfiles/after,/Users/davidrobbins/.vim/after"
+Searching for "/Users/davidrobbins/.vim/bitmaps/-sep1-.bmp"
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/vimfiles/bitmaps/-sep1-.bmp"
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/runtime/bitmaps/-sep1-.bmp"
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/vimfiles/after/bitmaps/-sep1-.bmp"
+Searching for "/Users/davidrobbins/.vim/after/bitmaps/-sep1-.bmp"
+not found in 'runtimepath': "bitmaps/-sep1-.bmp"
+Searching for "bitmaps/Undo.png" in "/Users/davidrobbins/.vim,/Applications/MacVim.app/Contents/Resources/vim/vimfiles,/Applications/MacVim.app/Contents/Resources/vim/runtime,/Applications/MacVim.app/Contents/Resources/vim/vimfiles/after,/Users/davidrobbins/.vim/after"
+Searching for "/Users/davidrobbins/.vim/bitmaps/Undo.png"
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/vimfiles/bitmaps/Undo.png"
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/runtime/bitmaps/Undo.png"
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/vimfiles/after/bitmaps/Undo.png"
+Searching for "/Users/davidrobbins/.vim/after/bitmaps/Undo.png"
+not found in 'runtimepath': "bitmaps/Undo.png"
+Searching for "bitmaps/Undo.bmp" in "/Users/davidrobbins/.vim,/Applications/MacVim.app/Contents/Resources/vim/vimfiles,/Applications/MacVim.app/Contents/Resources/vim/runtime,/Applications/MacVim.app/Contents/Resources/vim/vimfiles/after,/Users/davidrobbins/.vim/after"
+Searching for "/Users/davidrobbins/.vim/bitmaps/Undo.bmp"
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/vimfiles/bitmaps/Undo.bmp"
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/runtime/bitmaps/Undo.bmp"
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/vimfiles/after/bitmaps/Undo.bmp"
+Searching for "/Users/davidrobbins/.vim/after/bitmaps/Undo.bmp"
+not found in 'runtimepath': "bitmaps/Undo.bmp"
+Searching for "bitmaps/Redo.png" in "/Users/davidrobbins/.vim,/Applications/MacVim.app/Contents/Resources/vim/vimfiles,/Applications/MacVim.app/Contents/Resources/vim/runtime,/Applications/MacVim.app/Contents/Resources/vim/vimfiles/after,/Users/davidrobbins/.vim/after"
+Searching for "/Users/davidrobbins/.vim/bitmaps/Redo.png"
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/vimfiles/bitmaps/Redo.png"
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/runtime/bitmaps/Redo.png"
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/vimfiles/after/bitmaps/Redo.png"
+Searching for "/Users/davidrobbins/.vim/after/bitmaps/Redo.png"
+not found in 'runtimepath': "bitmaps/Redo.png"
+Searching for "bitmaps/Redo.bmp" in "/Users/davidrobbins/.vim,/Applications/MacVim.app/Contents/Resources/vim/vimfiles,/Applications/MacVim.app/Contents/Resources/vim/runtime,/Applications/MacVim.app/Contents/Resources/vim/vimfiles/after,/Users/davidrobbins/.vim/after"
+Searching for "/Users/davidrobbins/.vim/bitmaps/Redo.bmp"
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/vimfiles/bitmaps/Redo.bmp"
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/runtime/bitmaps/Redo.bmp"
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/vimfiles/after/bitmaps/Redo.bmp"
+Searching for "/Users/davidrobbins/.vim/after/bitmaps/Redo.bmp"
+not found in 'runtimepath': "bitmaps/Redo.bmp"
+Searching for "bitmaps/-sep2-.png" in "/Users/davidrobbins/.vim,/Applications/MacVim.app/Contents/Resources/vim/vimfiles,/Applications/MacVim.app/Contents/Resources/vim/runtime,/Applications/MacVim.app/Contents/Resources/vim/vimfiles/after,/Users/davidrobbins/.vim/after"
+Searching for "/Users/davidrobbins/.vim/bitmaps/-sep2-.png"
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/vimfiles/bitmaps/-sep2-.png"
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/runtime/bitmaps/-sep2-.png"
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/vimfiles/after/bitmaps/-sep2-.png"
+Searching for "/Users/davidrobbins/.vim/after/bitmaps/-sep2-.png"
+not found in 'runtimepath': "bitmaps/-sep2-.png"
+Searching for "bitmaps/-sep2-.bmp" in "/Users/davidrobbins/.vim,/Applications/MacVim.app/Contents/Resources/vim/vimfiles,/Applications/MacVim.app/Contents/Resources/vim/runtime,/Applications/MacVim.app/Contents/Resources/vim/vimfiles/after,/Users/davidrobbins/.vim/after"
+Searching for "/Users/davidrobbins/.vim/bitmaps/-sep2-.bmp"
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/vimfiles/bitmaps/-sep2-.bmp"
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/runtime/bitmaps/-sep2-.bmp"
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/vimfiles/after/bitmaps/-sep2-.bmp"
+Searching for "/Users/davidrobbins/.vim/after/bitmaps/-sep2-.bmp"
+not found in 'runtimepath': "bitmaps/-sep2-.bmp"
+Searching for "bitmaps/Cut.png" in "/Users/davidrobbins/.vim,/Applications/MacVim.app/Contents/Resources/vim/vimfiles,/Applications/MacVim.app/Contents/Resources/vim/runtime,/Applications/MacVim.app/Contents/Resources/vim/vimfiles/after,/Users/davidrobbins/.vim/after"
+Searching for "/Users/davidrobbins/.vim/bitmaps/Cut.png"
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/vimfiles/bitmaps/Cut.png"
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/runtime/bitmaps/Cut.png"
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/vimfiles/after/bitmaps/Cut.png"
+Searching for "/Users/davidrobbins/.vim/after/bitmaps/Cut.png"
+not found in 'runtimepath': "bitmaps/Cut.png"
+Searching for "bitmaps/Cut.bmp" in "/Users/davidrobbins/.vim,/Applications/MacVim.app/Contents/Resources/vim/vimfiles,/Applications/MacVim.app/Contents/Resources/vim/runtime,/Applications/MacVim.app/Contents/Resources/vim/vimfiles/after,/Users/davidrobbins/.vim/after"
+Searching for "/Users/davidrobbins/.vim/bitmaps/Cut.bmp"
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/vimfiles/bitmaps/Cut.bmp"
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/runtime/bitmaps/Cut.bmp"
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/vimfiles/after/bitmaps/Cut.bmp"
+Searching for "/Users/davidrobbins/.vim/after/bitmaps/Cut.bmp"
+not found in 'runtimepath': "bitmaps/Cut.bmp"
+Searching for "bitmaps/Copy.png" in "/Users/davidrobbins/.vim,/Applications/MacVim.app/Contents/Resources/vim/vimfiles,/Applications/MacVim.app/Contents/Resources/vim/runtime,/Applications/MacVim.app/Contents/Resources/vim/vimfiles/after,/Users/davidrobbins/.vim/after"
+Searching for "/Users/davidrobbins/.vim/bitmaps/Copy.png"
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/vimfiles/bitmaps/Copy.png"
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/runtime/bitmaps/Copy.png"
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/vimfiles/after/bitmaps/Copy.png"
+Searching for "/Users/davidrobbins/.vim/after/bitmaps/Copy.png"
+not found in 'runtimepath': "bitmaps/Copy.png"
+Searching for "bitmaps/Copy.bmp" in "/Users/davidrobbins/.vim,/Applications/MacVim.app/Contents/Resources/vim/vimfiles,/Applications/MacVim.app/Contents/Resources/vim/runtime,/Applications/MacVim.app/Contents/Resources/vim/vimfiles/after,/Users/davidrobbins/.vim/after"
+Searching for "/Users/davidrobbins/.vim/bitmaps/Copy.bmp"
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/vimfiles/bitmaps/Copy.bmp"
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/runtime/bitmaps/Copy.bmp"
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/vimfiles/after/bitmaps/Copy.bmp"
+Searching for "/Users/davidrobbins/.vim/after/bitmaps/Copy.bmp"
+not found in 'runtimepath': "bitmaps/Copy.bmp"
+Searching for "bitmaps/Paste.png" in "/Users/davidrobbins/.vim,/Applications/MacVim.app/Contents/Resources/vim/vimfiles,/Applications/MacVim.app/Contents/Resources/vim/runtime,/Applications/MacVim.app/Contents/Resources/vim/vimfiles/after,/Users/davidrobbins/.vim/after"
+Searching for "/Users/davidrobbins/.vim/bitmaps/Paste.png"
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/vimfiles/bitmaps/Paste.png"
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/runtime/bitmaps/Paste.png"
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/vimfiles/after/bitmaps/Paste.png"
+Searching for "/Users/davidrobbins/.vim/after/bitmaps/Paste.png"
+not found in 'runtimepath': "bitmaps/Paste.png"
+Searching for "bitmaps/Paste.bmp" in "/Users/davidrobbins/.vim,/Applications/MacVim.app/Contents/Resources/vim/vimfiles,/Applications/MacVim.app/Contents/Resources/vim/runtime,/Applications/MacVim.app/Contents/Resources/vim/vimfiles/after,/Users/davidrobbins/.vim/after"
+Searching for "/Users/davidrobbins/.vim/bitmaps/Paste.bmp"
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/vimfiles/bitmaps/Paste.bmp"
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/runtime/bitmaps/Paste.bmp"
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/vimfiles/after/bitmaps/Paste.bmp"
+Searching for "/Users/davidrobbins/.vim/after/bitmaps/Paste.bmp"
+not found in 'runtimepath': "bitmaps/Paste.bmp"
+Searching for "bitmaps/LoadSesn.png" in "/Users/davidrobbins/.vim,/Applications/MacVim.app/Contents/Resources/vim/vimfiles,/Applications/MacVim.app/Contents/Resources/vim/runtime,/Applications/MacVim.app/Contents/Resources/vim/vimfiles/after,/Users/davidrobbins/.vim/after"
+Searching for "/Users/davidrobbins/.vim/bitmaps/LoadSesn.png"
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/vimfiles/bitmaps/LoadSesn.png"
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/runtime/bitmaps/LoadSesn.png"
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/vimfiles/after/bitmaps/LoadSesn.png"
+Searching for "/Users/davidrobbins/.vim/after/bitmaps/LoadSesn.png"
+not found in 'runtimepath': "bitmaps/LoadSesn.png"
+Searching for "bitmaps/LoadSesn.bmp" in "/Users/davidrobbins/.vim,/Applications/MacVim.app/Contents/Resources/vim/vimfiles,/Applications/MacVim.app/Contents/Resources/vim/runtime,/Applications/MacVim.app/Contents/Resources/vim/vimfiles/after,/Users/davidrobbins/.vim/after"
+Searching for "/Users/davidrobbins/.vim/bitmaps/LoadSesn.bmp"
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/vimfiles/bitmaps/LoadSesn.bmp"
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/runtime/bitmaps/LoadSesn.bmp"
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/vimfiles/after/bitmaps/LoadSesn.bmp"
+Searching for "/Users/davidrobbins/.vim/after/bitmaps/LoadSesn.bmp"
+not found in 'runtimepath': "bitmaps/LoadSesn.bmp"
+Searching for "bitmaps/SaveSesn.png" in "/Users/davidrobbins/.vim,/Applications/MacVim.app/Contents/Resources/vim/vimfiles,/Applications/MacVim.app/Contents/Resources/vim/runtime,/Applications/MacVim.app/Contents/Resources/vim/vimfiles/after,/Users/davidrobbins/.vim/after"
+Searching for "/Users/davidrobbins/.vim/bitmaps/SaveSesn.png"
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/vimfiles/bitmaps/SaveSesn.png"
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/runtime/bitmaps/SaveSesn.png"
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/vimfiles/after/bitmaps/SaveSesn.png"
+Searching for "/Users/davidrobbins/.vim/after/bitmaps/SaveSesn.png"
+not found in 'runtimepath': "bitmaps/SaveSesn.png"
+Searching for "bitmaps/SaveSesn.bmp" in "/Users/davidrobbins/.vim,/Applications/MacVim.app/Contents/Resources/vim/vimfiles,/Applications/MacVim.app/Contents/Resources/vim/runtime,/Applications/MacVim.app/Contents/Resources/vim/vimfiles/after,/Users/davidrobbins/.vim/after"
+Searching for "/Users/davidrobbins/.vim/bitmaps/SaveSesn.bmp"
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/vimfiles/bitmaps/SaveSesn.bmp"
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/runtime/bitmaps/SaveSesn.bmp"
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/vimfiles/after/bitmaps/SaveSesn.bmp"
+Searching for "/Users/davidrobbins/.vim/after/bitmaps/SaveSesn.bmp"
+not found in 'runtimepath': "bitmaps/SaveSesn.bmp"
+Searching for "bitmaps/RunScript.png" in "/Users/davidrobbins/.vim,/Applications/MacVim.app/Contents/Resources/vim/vimfiles,/Applications/MacVim.app/Contents/Resources/vim/runtime,/Applications/MacVim.app/Contents/Resources/vim/vimfiles/after,/Users/davidrobbins/.vim/after"
+Searching for "/Users/davidrobbins/.vim/bitmaps/RunScript.png"
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/vimfiles/bitmaps/RunScript.png"
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/runtime/bitmaps/RunScript.png"
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/vimfiles/after/bitmaps/RunScript.png"
+Searching for "/Users/davidrobbins/.vim/after/bitmaps/RunScript.png"
+not found in 'runtimepath': "bitmaps/RunScript.png"
+Searching for "bitmaps/RunScript.bmp" in "/Users/davidrobbins/.vim,/Applications/MacVim.app/Contents/Resources/vim/vimfiles,/Applications/MacVim.app/Contents/Resources/vim/runtime,/Applications/MacVim.app/Contents/Resources/vim/vimfiles/after,/Users/davidrobbins/.vim/after"
+Searching for "/Users/davidrobbins/.vim/bitmaps/RunScript.bmp"
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/vimfiles/bitmaps/RunScript.bmp"
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/runtime/bitmaps/RunScript.bmp"
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/vimfiles/after/bitmaps/RunScript.bmp"
+Searching for "/Users/davidrobbins/.vim/after/bitmaps/RunScript.bmp"
+not found in 'runtimepath': "bitmaps/RunScript.bmp"
+Searching for "bitmaps/Make.png" in "/Users/davidrobbins/.vim,/Applications/MacVim.app/Contents/Resources/vim/vimfiles,/Applications/MacVim.app/Contents/Resources/vim/runtime,/Applications/MacVim.app/Contents/Resources/vim/vimfiles/after,/Users/davidrobbins/.vim/after"
+Searching for "/Users/davidrobbins/.vim/bitmaps/Make.png"
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/vimfiles/bitmaps/Make.png"
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/runtime/bitmaps/Make.png"
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/vimfiles/after/bitmaps/Make.png"
+Searching for "/Users/davidrobbins/.vim/after/bitmaps/Make.png"
+not found in 'runtimepath': "bitmaps/Make.png"
+Searching for "bitmaps/Make.bmp" in "/Users/davidrobbins/.vim,/Applications/MacVim.app/Contents/Resources/vim/vimfiles,/Applications/MacVim.app/Contents/Resources/vim/runtime,/Applications/MacVim.app/Contents/Resources/vim/vimfiles/after,/Users/davidrobbins/.vim/after"
+Searching for "/Users/davidrobbins/.vim/bitmaps/Make.bmp"
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/vimfiles/bitmaps/Make.bmp"
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/runtime/bitmaps/Make.bmp"
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/vimfiles/after/bitmaps/Make.bmp"
+Searching for "/Users/davidrobbins/.vim/after/bitmaps/Make.bmp"
+not found in 'runtimepath': "bitmaps/Make.bmp"
+Searching for "bitmaps/-sep7-.png" in "/Users/davidrobbins/.vim,/Applications/MacVim.app/Contents/Resources/vim/vimfiles,/Applications/MacVim.app/Contents/Resources/vim/runtime,/Applications/MacVim.app/Contents/Resources/vim/vimfiles/after,/Users/davidrobbins/.vim/after"
+Searching for "/Users/davidrobbins/.vim/bitmaps/-sep7-.png"
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/vimfiles/bitmaps/-sep7-.png"
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/runtime/bitmaps/-sep7-.png"
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/vimfiles/after/bitmaps/-sep7-.png"
+Searching for "/Users/davidrobbins/.vim/after/bitmaps/-sep7-.png"
+not found in 'runtimepath': "bitmaps/-sep7-.png"
+Searching for "bitmaps/-sep7-.bmp" in "/Users/davidrobbins/.vim,/Applications/MacVim.app/Contents/Resources/vim/vimfiles,/Applications/MacVim.app/Contents/Resources/vim/runtime,/Applications/MacVim.app/Contents/Resources/vim/vimfiles/after,/Users/davidrobbins/.vim/after"
+Searching for "/Users/davidrobbins/.vim/bitmaps/-sep7-.bmp"
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/vimfiles/bitmaps/-sep7-.bmp"
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/runtime/bitmaps/-sep7-.bmp"
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/vimfiles/after/bitmaps/-sep7-.bmp"
+Searching for "/Users/davidrobbins/.vim/after/bitmaps/-sep7-.bmp"
+not found in 'runtimepath': "bitmaps/-sep7-.bmp"
+Searching for "bitmaps/Help.png" in "/Users/davidrobbins/.vim,/Applications/MacVim.app/Contents/Resources/vim/vimfiles,/Applications/MacVim.app/Contents/Resources/vim/runtime,/Applications/MacVim.app/Contents/Resources/vim/vimfiles/after,/Users/davidrobbins/.vim/after"
+Searching for "/Users/davidrobbins/.vim/bitmaps/Help.png"
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/vimfiles/bitmaps/Help.png"
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/runtime/bitmaps/Help.png"
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/vimfiles/after/bitmaps/Help.png"
+Searching for "/Users/davidrobbins/.vim/after/bitmaps/Help.png"
+not found in 'runtimepath': "bitmaps/Help.png"
+Searching for "bitmaps/Help.bmp" in "/Users/davidrobbins/.vim,/Applications/MacVim.app/Contents/Resources/vim/vimfiles,/Applications/MacVim.app/Contents/Resources/vim/runtime,/Applications/MacVim.app/Contents/Resources/vim/vimfiles/after,/Users/davidrobbins/.vim/after"
+Searching for "/Users/davidrobbins/.vim/bitmaps/Help.bmp"
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/vimfiles/bitmaps/Help.bmp"
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/runtime/bitmaps/Help.bmp"
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/vimfiles/after/bitmaps/Help.bmp"
+Searching for "/Users/davidrobbins/.vim/after/bitmaps/Help.bmp"
+not found in 'runtimepath': "bitmaps/Help.bmp"
+Reading viminfo file "/Users/davidrobbins/.viminfo" info oldfiles
+"vimrc" 
+"vimrc" 65L, 1309C
+Reading viminfo file "/Users/davidrobbins/.viminfo" marks
+Executing BufRead Auto commands for "*"
+autocommand if !did_filetype() && expand("<amatch>") !~ g:ft_ignore_pat | runtime! scripts.vim | endif
+
+Searching for "scripts.vim" in "/Users/davidrobbins/.vim,/Applications/MacVim.app/Contents/Resources/vim/vimfiles,/Applications/MacVim.app/Contents/Resources/vim/runtime,/Applications/MacVim.app/Contents/Resources/vim/vimfiles/after,/Users/davidrobbins/.vim/after"
+Searching for "/Users/davidrobbins/.vim/scripts.vim"
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/vimfiles/scripts.vim"
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/runtime/scripts.vim"
+chdir(/Applications/MacVim.app/Contents/Resources/vim/runtime)
+fchdir() to previous dir
+line 0: sourcing "/Applications/MacVim.app/Contents/Resources/vim/runtime/scripts.vim"
+finished sourcing /Applications/MacVim.app/Contents/Resources/vim/runtime/scripts.vim
+continuing in BufRead Auto commands for "*"
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/vimfiles/after/scripts.vim"
+Searching for "/Users/davidrobbins/.vim/after/scripts.vim"
+Executing BufRead Auto commands for "*vimrc*"
+autocommand call s:StarSetf('vim')
+
+Executing FileType Auto commands for "*"
+autocommand exe "set syntax=" . expand("<amatch>")
+
+Executing Syntax Auto commands for "*"
+autocommand call s:SynSet()
+
+Searching for "syntax/vim.vim syntax/vim/*.vim" in "/Users/davidrobbins/.vim,/Applications/MacVim.app/Contents/Resources/vim/vimfiles,/Applications/MacVim.app/Contents/Resources/vim/runtime,/Applications/MacVim.app/Contents/Resources/vim/vimfiles/after,/Users/davidrobbins/.vim/after"
+Searching for "/Users/davidrobbins/.vim/syntax/vim.vim"
+Searching for "/Users/davidrobbins/.vim/syntax/vim/*.vim"
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/vimfiles/syntax/vim.vim"
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/vimfiles/syntax/vim/*.vim"
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/runtime/syntax/vim.vim"
+chdir(/Applications/MacVim.app/Contents/Resources/vim/runtime/syntax)
+fchdir() to previous dir
+line 22: sourcing "/Applications/MacVim.app/Contents/Resources/vim/runtime/syntax/vim.vim"
+chdir(/Applications/MacVim.app/Contents/Resources/vim/runtime/syntax)
+fchdir() to previous dir
+line 585: sourcing "/Applications/MacVim.app/Contents/Resources/vim/runtime/syntax/perl.vim"
+finished sourcing /Applications/MacVim.app/Contents/Resources/vim/runtime/syntax/perl.vim
+continuing in /Applications/MacVim.app/Contents/Resources/vim/runtime/syntax/vim.vim
+chdir(/Applications/MacVim.app/Contents/Resources/vim/runtime/syntax)
+fchdir() to previous dir
+line 607: sourcing "/Applications/MacVim.app/Contents/Resources/vim/runtime/syntax/ruby.vim"
+finished sourcing /Applications/MacVim.app/Contents/Resources/vim/runtime/syntax/ruby.vim
+continuing in /Applications/MacVim.app/Contents/Resources/vim/runtime/syntax/vim.vim
+chdir(/Applications/MacVim.app/Contents/Resources/vim/runtime/syntax)
+fchdir() to previous dir
+line 628: sourcing "/Applications/MacVim.app/Contents/Resources/vim/runtime/syntax/python.vim"
+finished sourcing /Applications/MacVim.app/Contents/Resources/vim/runtime/syntax/python.vim
+continuing in /Applications/MacVim.app/Contents/Resources/vim/runtime/syntax/vim.vim
+finished sourcing /Applications/MacVim.app/Contents/Resources/vim/runtime/syntax/vim.vim
+continuing in function <SNR>16_SynSet
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/runtime/syntax/vim/*.vim"
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/vimfiles/after/syntax/vim.vim"
+Searching for "/Applications/MacVim.app/Contents/Resources/vim/vimfiles/after/syntax/vim/*.vim"
+Searching for "/Users/davidrobbins/.vim/after/syntax/vim.vim"
+Searching for "/Users/davidrobbins/.vim/after/syntax/vim/*.vim"
+Executing BufRead Auto commands for "*"
+autocommand if !did_filetype() && expand("<amatch>") !~ g:ft_ignore_pat    && (getline(1) =~ '^#' || getline(2) =~ '^#' || getline(3) =~ '^#'^I|| getline(4) =~ '^#' || getline(5) =~ '^#') |   setf conf | endif
+
+Executing BufEnter Auto commands for "*"
+autocommand sil! call s:LocalBrowse(expand("<amatch>"))
+
+Executing VimEnter Auto commands for "*"
+autocommand sil! call s:VimEnter(expand("<amatch>"))
+
+Executing CursorMoved Auto commands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing FocusLost Auto commands for "*"
+autocommand if exists("colors_name") && colors_name == "macvim" | hi Visual guibg=MacSecondarySelectedControlColor | endif
+
+Executing FocusGained Auto commands for "*"
+autocommand if exists("colors_name") && colors_name == "macvim" | hi Visual guibg=MacSelectedTextBackgroundColor | endif
+
+Writing viminfo file "/Users/davidrobbins/.viminfo"
