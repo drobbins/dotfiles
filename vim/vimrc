@@ -5,9 +5,15 @@ call pathogen#helptags()
 set background=light
 let g:solarized_termtrans=1
 let g:solarized_termcolors=256
-let g:solarized_contrast="high"
-let g:solarized_visibility="high"
+"let g:solarized_contrast="high"
+"let g:solarized_visibility="high"
 colorscheme solarized
+
+" fullcreen playing
+if has('gui_macvim')
+     set fuoptions=background:Normal
+endif
+hi NonText guifg=blue ctermfg=blue
 
 " command-t
 noremap <leader>o <Esc>:CommandT<CR>
@@ -49,7 +55,7 @@ set hlsearch
 " gui
 set number " line numbers
 set ruler " show line and column number of the cursor position
-set cursorline
+" set cursorline
 set showcmd
 set wildmenu
 set list listchars=tab:»·,trail:·
@@ -57,9 +63,9 @@ set diffopt=filler,vertical,iwhite
 
 " whitespace
 set expandtab " use spaces instead of tabs
-set tabstop=2
-set softtabstop=2
-set shiftwidth=2
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
 set smarttab " inserts blanks according to shiftwidth in front of a line
 
 " syntax highlighting
