@@ -9,25 +9,16 @@ let g:solarized_termcolors=256
 "let g:solarized_visibility="high"
 colorscheme solarized
 
-" fullcreen playing
-if has('gui_macvim')
-     set fuoptions=background:Normal
-endif
-hi NonText guifg=blue ctermfg=blue
-
 " command-t
 noremap <leader>o <Esc>:CommandT<CR>
 noremap <leader>O <Esc>:CommandTFlush<CR>
 noremap <leader>m <Esc>:CommandTBuffer<CR>
 
-" CloseTag
-autocmd FileType html,htmldjango,jinjahtml,eruby,mako let b:closetag_html_style=1
-autocmd FileType html,xhtml,xml,htmldjango,jinjahtml,eruby,mako source ~/.vim/bundle/closetag/plugin/closetag.vim
-
 " Omni and SuperTab
 filetype plugin on
 set ofu=syntaxcomplete#Complete
 let g:SuperTabDefaultCompletionType = "context"
+let g:SuperTabContextDefaultCompletionType = "user"
 
 " Code Folding
 set foldmethod=indent   "fold based on indent
@@ -63,9 +54,9 @@ set diffopt=filler,vertical,iwhite
 
 " whitespace
 set expandtab " use spaces instead of tabs
-set tabstop=4
-set softtabstop=4
-set shiftwidth=4
+set tabstop=2
+set softtabstop=2
+set shiftwidth=2
 set smarttab " inserts blanks according to shiftwidth in front of a line
 
 " syntax highlighting
@@ -83,9 +74,8 @@ map <c-PageDown> gt
 map <c-PageUp> gT
 imap <c-PageDown> <Esc>gt
 imap <c-PageUp> <Esc>gT
-map <F2> :NERDTree<CR>
-map <F3> :NERDTree pcc<CR>
-map <F1> :NERDTreeMirror<CR>
 
 " moving to the right place
 " set autochdir
+set rnu
+
