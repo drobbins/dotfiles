@@ -15,3 +15,6 @@ export GEM_HOME='/usr/local/Cellar/gems/1.8'
 
 # Node
 export NODE_PATH='/usr/local/lib/node_modules'
+
+# RVM
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" # Load RVM function
