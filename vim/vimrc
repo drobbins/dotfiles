@@ -2,9 +2,14 @@ call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
 
 " colors
-set background=light
-let g:solarized_termtrans=1
-let g:solarized_termcolors=256
+" set background=light
+if has('gui_running')
+    set background=light
+else
+    set background=dark
+endif
+" let g:solarized_termtrans=1
+" let g:solarized_termcolors=256
 "let g:solarized_contrast="high"
 "let g:solarized_visibility="high"
 colorscheme solarized
@@ -26,6 +31,9 @@ set foldnestmax=10      "deepest fold is 10 levels
 set nofoldenable        "dont fold by default
 set foldlevel=1         "this is just what i use
 
+" JSLint.vim
+noremap <leader>l <Esc>:JSLintUpdate<CR>
+
 " Alex's Stuf----------------------------------------------------------
 set nocompatible
 set nobackup
@@ -44,7 +52,8 @@ set incsearch
 set hlsearch
 
 " gui
-set number " line numbers
+set rnu
+"set number " line numbers
 set ruler " show line and column number of the cursor position
 " set cursorline
 set showcmd
@@ -77,5 +86,4 @@ imap <c-PageUp> <Esc>gT
 
 " moving to the right place
 " set autochdir
-set rnu
 

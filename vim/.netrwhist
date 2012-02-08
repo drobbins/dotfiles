@@ -1,4 +1,8 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =2
+let g:netrw_dirhist_cnt =6
 let g:netrw_dirhist_1='/Users/robbinsd/Repos/CouchApplicator'
 let g:netrw_dirhist_2='/Users/robbinsd/Repos/CouchApplicator/_attachments'
+let g:netrw_dirhist_3='/Users/robbinsd/Repos/dashboard'
+let g:netrw_dirhist_4='/Users/robbinsd/Repos/dotfiles/vim/bundle/jslint.vim'
+let g:netrw_dirhist_5='/Users/robbinsd/Repos/dotfiles/vim/bundle/jslint.vim/ftplugin'
+let g:netrw_dirhist_6='/Users/robbinsd/Repos/dotfiles/vim/bundle/jslint.vim/ftplugin/javascript'
