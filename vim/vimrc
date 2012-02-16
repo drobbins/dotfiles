@@ -1,88 +1,82 @@
-call pathogen#runtime_append_all_bundles()
-call pathogen#helptags()
-
-" colors
-" set background=light
-if has('gui_running')
-    set background=light
-else
-    set background=dark
-endif
-" let g:solarized_termtrans=1
-" let g:solarized_termcolors=256
-"let g:solarized_contrast="high"
-"let g:solarized_visibility="high"
-colorscheme solarized
-
-" command-t
-noremap <leader>o <Esc>:CommandT<CR>
-noremap <leader>O <Esc>:CommandTFlush<CR>
-noremap <leader>m <Esc>:CommandTBuffer<CR>
-
-" Omni and SuperTab
-filetype plugin indent on
-set ofu=syntaxcomplete#Complete
-let g:SuperTabDefaultCompletionType = "context"
-let g:SuperTabContextDefaultCompletionType = "user"
-
-" Code Folding
-set foldmethod=indent   "fold based on indent
-set foldnestmax=10      "deepest fold is 10 levels
-set nofoldenable        "dont fold by default
-set foldlevel=1         "this is just what i use
-
-" JSHint
-noremap <leader>l <Esc>:JSHint<CR>
-
-" Alex's Stuf----------------------------------------------------------
+" Basic Settings
 set nocompatible
 set nobackup
 
-" encoding
+" Font Settings
+set gfn=Monaco:h13
+
+" Enable filetype detection
+filetype plugin indent on
+
+" Statusline Customization
+"set laststatus=2
+"set statusline=%<%f\ %h%m%r%{fugitive#statusline()}%=%-14.(%l,%c%V%)\ %P
+
+" Encoding
 set encoding=utf-8
 set fileencoding=utf-8
 
-" file format
+" Default File Format
 set fileformats=unix,dos
 
-" search
+" Search
 set ignorecase
 set smartcase
 set incsearch
-set hlsearch
+"set hlsearch "hilights all matches of the last search
 
-" gui
+" Set relative line numbers for better movements
 set rnu
-"set number " line numbers
-set ruler " show line and column number of the cursor position
-" set cursorline
 set showcmd
 set wildmenu
 set list listchars=tab:»·,trail:·
 set diffopt=filler,vertical,iwhite
 
-" whitespace
+" Whitespace and Indentation
+set autoindent " copy indent from current line when starting a new line
+set backspace=2
 set expandtab " use spaces instead of tabs
 set tabstop=2
 set softtabstop=2
 set shiftwidth=2
 set smarttab " inserts blanks according to shiftwidth in front of a line
 
-" syntax highlighting
+" Syntax Highlighting
 syntax on
 
-" indentation
-set autoindent " copy indent from current line when starting a new line
-set backspace=2
-
-" mappings
+" Select All Mappings
 map <c-a> ggVG
 imap <c-a> <Esc>ggVG
-map <c-PageDown> gt
-map <c-PageUp> gT
-imap <c-PageDown> <Esc>gt
-imap <c-PageUp> <Esc>gT
 
-" moving to the right place
-" set autochdir
+" Code Folding
+set foldmethod=indent   " Fold based on indent
+set nofoldenable        " Dont fold by default, only when, e.g., zc
+set foldlevel=99        " Folds with higher levels will be closed by
+                        " default, i.e. none when set to 99
 
+" Plugins -----------------------------------------------------------------
+
+" Load Bundles using Pathogen
+call pathogen#runtime_append_all_bundles()
+call pathogen#helptags()
+
+" Solarized Colorscheme Settings (http://ethanschoonover.com/solarized)
+if has('gui_running')
+    set background=dark
+else
+    set background=dark
+endif
+colorscheme solarized
+
+" Command-T (https://wincent.com/products/command-t)
+noremap <leader>o <Esc>:CommandT<CR>
+noremap <leader>O <Esc>:CommandTFlush<CR>
+noremap <leader>m <Esc>:CommandTBuffer<CR>
+
+" Omni and SuperTab
+set ofu=syntaxcomplete#Complete
+let g:SuperTabDefaultCompletionType = "context"
+let g:SuperTabContextDefaultCompletionType = "user"
+
+" JSHint
+noremap <leader>l <Esc>:JSHint<CR>
