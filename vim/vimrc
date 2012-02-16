@@ -20,7 +20,7 @@ noremap <leader>O <Esc>:CommandTFlush<CR>
 noremap <leader>m <Esc>:CommandTBuffer<CR>
 
 " Omni and SuperTab
-filetype plugin on
+filetype plugin indent on
 set ofu=syntaxcomplete#Complete
 let g:SuperTabDefaultCompletionType = "context"
 let g:SuperTabContextDefaultCompletionType = "user"
@@ -31,8 +31,8 @@ set foldnestmax=10      "deepest fold is 10 levels
 set nofoldenable        "dont fold by default
 set foldlevel=1         "this is just what i use
 
-" JSLint.vim
-noremap <leader>l <Esc>:JSLintUpdate<CR>
+" JSHint
+noremap <leader>l <Esc>:JSHint<CR>
 
 " Alex's Stuf----------------------------------------------------------
 set nocompatible
@@ -70,7 +70,6 @@ set smarttab " inserts blanks according to shiftwidth in front of a line
 
 " syntax highlighting
 syntax on
-filetype plugin on
 
 " indentation
 set autoindent " copy indent from current line when starting a new line
