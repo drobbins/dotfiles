@@ -79,6 +79,10 @@ else
 endif
 colorscheme solarized
 
+" Setting Vimroom to work with solarized colors:
+let g:vimroom_guibackground = '#002b36'
+let g:vimroom_ctermbackground = 8
+
 " Command-T (https://wincent.com/products/command-t)
 noremap <leader>o <Esc>:CommandT<CR>
 noremap <leader>O <Esc>:CommandTFlush<CR>
