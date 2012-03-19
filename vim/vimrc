@@ -33,6 +33,7 @@ set incsearch
 
 " Set relative line numbers for better movements
 set rnu
+set ruler
 set showcmd
 set wildmenu
 set list listchars=tab:»·,trail:·
@@ -60,6 +61,10 @@ set nofoldenable        " Dont fold by default, only when, e.g., zc
 set foldlevel=99        " Folds with higher levels will be closed by
                         " default, i.e. none when set to 99
 
+" Reselect visual block after indent/outdent.
+vnoremap < <gv
+vnoremap > >gv
+
 " Plugins -----------------------------------------------------------------
 
 " Load Bundles using Pathogen
@@ -68,7 +73,7 @@ call pathogen#helptags()
 
 " Solarized Colorscheme Settings (http://ethanschoonover.com/solarized)
 if has('gui_running')
-    set background=dark
+    set background=light
 else
     set background=dark
 endif
