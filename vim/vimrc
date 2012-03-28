@@ -31,13 +31,15 @@ set smartcase
 set incsearch
 "set hlsearch "hilights all matches of the last search
 
-" Set relative line numbers for better movements
+" Set relative line numbers for better movements and
+" assorted display options
 set rnu
 set ruler
 set showcmd
 set wildmenu
 set list listchars=tab:»·,trail:·
 set diffopt=filler,vertical,iwhite
+set nowrap
 
 " Whitespace and Indentation
 set autoindent " copy indent from current line when starting a new line
