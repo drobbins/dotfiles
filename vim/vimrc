@@ -9,7 +9,7 @@ noremap <Left> <nop>
 noremap <Right> <nop>
 
 " Font Settings
-set gfn=Monaco:h13
+set gfn=Monaco:h11
 
 " Enable filetype detection
 filetype plugin indent on
