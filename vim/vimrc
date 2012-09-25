@@ -76,10 +76,10 @@ call pathogen#helptags()
 " Solarized Colorscheme Settings (http://ethanschoonover.com/solarized)
 if has('gui_running')
     set background=light
+    colorscheme solarized
 else
     set background=dark
 endif
-colorscheme solarized
 
 " Setting Vimroom to work with solarized colors:
 let g:vimroom_guibackground = '#002b36'
