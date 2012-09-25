@@ -25,3 +25,10 @@ alias jsc='/System/Library/Frameworks/JavaScriptCore.framework/Versions/Current/
 
 # SWObjects
 alias sparql=/Applications/Sparql.app/Contents/MacOS/Sparql
+
+# Server Command
+function server() {
+  local port="${1:-8000}"
+  open "http://localhost:${port}/"
+  python -m SimpleHTTPServer "$port"
+}
