@@ -22,3 +22,6 @@ alias jsc='/System/Library/Frameworks/JavaScriptCore.framework/Versions/Current/
 
 # RVM
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" # Load RVM function
+
+# SWObjects
+alias sparql=/Applications/Sparql.app/Contents/MacOS/Sparql
