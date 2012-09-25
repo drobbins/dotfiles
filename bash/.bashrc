@@ -1,7 +1,7 @@
 export PATH=$PATH:/usr/local/sbin
 # PS1='\[\e[1;31m\][\W]\[\e[m\] '
 source /usr/local/etc/bash_completion.d/git-completion.bash
-PS1='\[\e[1;31m\][\W$(__git_ps1 "@%s")]\[\e[m\] '
+PS1='\[\033[G\]\[\e[1;31m\][\W$(__git_ps1 "@%s")]\[\e[m\] '
 
 #nginx
 alias nginx_start="launchctl load /usr/local/Cellar/nginx/1.0.7/org.nginx.nginx.plist"
