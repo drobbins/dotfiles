@@ -1,0 +1,46 @@
+# Shortcuts
+alias g="git"
+alias v="vim"
+alias mv="mvim"
+
+#nginx
+alias nginx_start="launchctl load /usr/local/Cellar/nginx/1.0.7/org.nginx.nginx.plist"
+alias nginx_stop="launchctl unload /usr/local/Cellar/nginx/1.0.7/org.nginx.nginx.plist"
+
+# php-fpm
+alias phpfm_start="/usr/local/Cellar/php/5.3.8/sbin/php-fpm"
+
+# Hub
+alias git=hub nginx_restart="nginx_stop; nginx_start;"
+
+# Easier navigation: .., ..., ~ and -
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias .....="cd ../../../.."
+alias ~="cd ~" # `cd` is probably faster to type though
+alias -- -="cd -"
+
+# IP addresses
+alias ip="dig +short myip.opendns.com @resolver1.opendns.com"
+alias localip="ipconfig getifaddr en1"
+alias ips="ifconfig -a | perl -nle'/(\d+\.\d+\.\d+\.\d+)/ && print $1'"
+
+# Recursively delete `.DS_Store` files
+alias cleanup="find . -name '*.DS_Store' -type f -ls -delete"
+
+# One of @janmoesen’s ProTip™s
+for method in GET HEAD POST PUT DELETE TRACE OPTIONS; do
+  alias "$method"="lwp-request -m '$method'"
+done
+
+# Javascript Core
+alias jsc='/System/Library/Frameworks/JavaScriptCore.framework/Versions/Current/Resources/jsc'
+
+# SWObjects
+alias sparql=/Applications/Sparql.app/Contents/MacOS/Sparql
+function sparqly() {
+  local port="${1:-8000}"
+  open "http://localhost:${port}"
+  sparql --serve http://localhost:$port/sparql
+}
