@@ -1,6 +1,6 @@
 source ~/.aliases
 # Path
-export PATH=$PATH:/usr/local/sbin
+export PATH=/usr/local/share/npm/bin:$PATH:/usr/local/sbin
 
 # Git Completion Prompt
 source /usr/local/etc/bash_completion.d/git-completion.bash
