@@ -89,7 +89,6 @@ noremap <leader>m <Esc>:CommandTBuffer<CR>
 " Omni and SuperTab
 set ofu=syntaxcomplete#Complete
 let g:SuperTabDefaultCompletionType = "context"
-let g:SuperTabContextDefaultCompletionType = "user"
 
 " JSHint
 noremap <leader>l <Esc>:JSHint<CR>
