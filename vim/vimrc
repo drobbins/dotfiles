@@ -9,7 +9,7 @@ noremap <Left> <nop>
 noremap <Right> <nop>
 
 " Font Settings
-set gfn=Monaco:h11
+set gfn=Menlo:h14
 
 " Enable filetype detection
 filetype plugin indent on
@@ -74,12 +74,8 @@ call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
 
 " Solarized Colorscheme Settings (http://ethanschoonover.com/solarized)
-if has('gui_running')
-    set background=light
-    colorscheme solarized
-else
-    set background=dark
-endif
+colorscheme solarized
+set background=dark
 
 " Command-T (https://wincent.com/products/command-t)
 noremap <leader>o <Esc>:CommandT<CR>
