@@ -9,7 +9,7 @@ PS1='\[\033[G\]\[\e[1;31m\][\W$(__git_ps1 "@%s")]\[\e[m\] '
 # Assorted Completions
 source /usr/local/etc/bash_completion.d/git-completion.bash
 source /usr/local/etc/bash_completion.d/git-flow-completion.bash
-source /usr/local/etc/bash_completion.d/hub.bash_completion.bash
+source /usr/local/etc/bash_completion.d/hub.bash_completion.sh
 
 # Use Homebrews Ruby Gems
 export GEM_HOME='/usr/local/Cellar/gems/1.8'
