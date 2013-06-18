@@ -1,7 +1,6 @@
 # Shortcuts
 alias g="git"
 alias v="vim"
-alias mv="mvim"
 
 #nginx
 alias nginx_start="launchctl load /usr/local/Cellar/nginx/1.0.7/org.nginx.nginx.plist"
