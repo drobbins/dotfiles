@@ -45,9 +45,9 @@ set nowrap
 set autoindent " copy indent from current line when starting a new line
 set backspace=2
 set expandtab " use spaces instead of tabs
-set tabstop=2
-set softtabstop=2
-set shiftwidth=2
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
 set smarttab " inserts blanks according to shiftwidth in front of a line
 
 " Syntax Highlighting
