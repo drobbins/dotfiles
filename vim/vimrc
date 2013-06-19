@@ -74,9 +74,10 @@ call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
 
 " Solarized Colorscheme Settings (http://ethanschoonover.com/solarized)
-colorscheme solarized
-set background=dark
+" colorscheme solarized
+" set background=dark
 
+colorscheme monokai
 " Command-T (https://wincent.com/products/command-t)
 noremap <leader>o <Esc>:CommandT<CR>
 noremap <leader>O <Esc>:CommandTFlush<CR>
