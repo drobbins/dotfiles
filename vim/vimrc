@@ -72,6 +72,7 @@ vnoremap > >gv
 " Load Bundles using Pathogen
 call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
+call pathogen#infect()
 
 " Solarized Colorscheme Settings (http://ethanschoonover.com/solarized)
 " colorscheme solarized
