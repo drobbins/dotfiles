@@ -70,7 +70,7 @@ vnoremap > >gv
 " Plugins -----------------------------------------------------------------
 
 " Load Bundles using Pathogen
-call pathogen#runtime_append_all_bundles()
+call pathogen#incubate()
 call pathogen#helptags()
 call pathogen#infect()
 
