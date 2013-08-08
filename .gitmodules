@@ -31,3 +31,6 @@
 [submodule "vim/bundle/coffee"]
 	path = vim/bundle/coffee
 	url = git@github.com:kchmck/vim-coffee-script.git
+[submodule "vim/bundle/vim-literate-coffeescript"]
+	path = vim/bundle/vim-literate-coffeescript
+	url = https://github.com/mintplant/vim-literate-coffeescript.git
