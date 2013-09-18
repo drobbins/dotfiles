@@ -9,7 +9,7 @@ noremap <Left> <nop>
 noremap <Right> <nop>
 
 " Font Settings
-set gfn=Menlo:h16
+set gfn=Menlo:h14
 
 " Enable filetype detection
 filetype plugin indent on
@@ -34,6 +34,7 @@ set incsearch
 " Set relative line numbers for better movements and
 " assorted display options
 set rnu
+set number
 set ruler
 set showcmd
 set wildmenu
