@@ -13,7 +13,9 @@ alias nginx_stop="launchctl unload /usr/local/Cellar/nginx/1.0.7/org.nginx.nginx
 alias phpfm_start="/usr/local/Cellar/php/5.3.8/sbin/php-fpm"
 
 # Hub
-alias git=hub nginx_restart="nginx_stop; nginx_start;"
+if ! type "hub" > /dev/null; then
+    alias git=hub
+fi
 
 # Easier navigation: .., ..., ~ and -
 alias ..="cd .."
