@@ -2,6 +2,8 @@
 alias g="git"
 alias v="vim"
 alias gl="git log --oneline --graph"
+alias gs="git status"
+alias gd="git diff"
 
 #nginx
 alias nginx_start="launchctl load /usr/local/Cellar/nginx/1.0.7/org.nginx.nginx.plist"
