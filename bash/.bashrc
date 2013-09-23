@@ -35,3 +35,5 @@ function server() {
 # chmod +x ~/code/z/z.sh
 # add this to the bash_profile file if it aint there.
 . ~/code/z/z.sh
+
+PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
