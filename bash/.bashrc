@@ -4,7 +4,7 @@ export PATH=~/apps/bin:/usr/local/share/npm/bin:/usr/local/bin:/usr/local/sbin:$
 
 # Git Prompt
 source /usr/local/etc/bash_completion.d/git-prompt.sh
-PS1='\[\033[G\]\[\e[1;31m\][\W$(__git_ps1 "@%s")]\[\e[m\] '
+PS1='\[\e[1;31m\]\u\[\e[m\] at \[\e[1;31m\]\h\[\e[m\] in \[\e[1;31m\]\w\[\e[m\]$(__git_ps1 " on \[\e[1;31m\]%s\[\e[m\]")\n\[\e[1;31m\]$\[\e[m\] '
 
 # Assorted Completions
 source /usr/local/etc/bash_completion.d/git-completion.bash
