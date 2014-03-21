@@ -7,15 +7,19 @@ source /usr/local/etc/bash_completion.d/git-prompt.sh
 PS1='\[\e[1;31m\]\u\[\e[m\] at \[\e[1;31m\]\h\[\e[m\] in \[\e[1;31m\]\w\[\e[m\]$(__git_ps1 " on \[\e[1;31m\]%s\[\e[m\]")\n\[\e[1;31m\]$\[\e[m\] '
 
 # Assorted Completions
-source /usr/local/etc/bash_completion.d/git-completion.bash
-source /usr/local/etc/bash_completion.d/git-flow-completion.bash
-source /usr/local/etc/bash_completion.d/hub.bash_completion.sh
+source /usr/local/etc/bash_completion.d/*
+#source /usr/local/etc/bash_completion.d/git-completion.bash
+#source /usr/local/etc/bash_completion.d/git-flow-completion.bash
+#source /usr/local/etc/bash_completion.d/hub.bash_completion.sh
 
 # Use Homebrews Ruby Gems
 export GEM_HOME='/usr/local/Cellar/gems/1.8'
 
 # Node
 export NODE_PATH='/usr/local/lib/node_modules'
+
+# Stardog
+export STARDOG_HOME=/Users/robbinsd/Data/stardog
 
 # RVM
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" # Load RVM function

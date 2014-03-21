@@ -1,11 +1,17 @@
-# Shortcuts
-alias g="git"
+# General Shortcuts
 alias v="vim"
+
+# Git Shortcuts
+alias g="git"
 alias gl="git log --oneline --graph"
 alias gs="git status"
 alias gd="git diff"
 
-#nginx
+# Task Warrior Shortcuts
+alias t="task"
+alias ta="task add"
+
+# nginx
 alias nginx_start="launchctl load /usr/local/Cellar/nginx/1.0.7/org.nginx.nginx.plist"
 alias nginx_stop="launchctl unload /usr/local/Cellar/nginx/1.0.7/org.nginx.nginx.plist"
 
@@ -16,6 +22,9 @@ alias phpfm_start="/usr/local/Cellar/php/5.3.8/sbin/php-fpm"
 if ! type "hub" > /dev/null; then
     alias git=hub
 fi
+
+# Docker
+alias docker='docker -H tcp://127.0.0.1:4243'
 
 # Easier navigation: .., ..., ~ and -
 alias ..="cd .."
