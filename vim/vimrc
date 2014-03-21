@@ -84,6 +84,7 @@ colorscheme monokai
 noremap <leader>o <Esc>:CommandT<CR>
 noremap <leader>O <Esc>:CommandTFlush<CR>
 noremap <leader>m <Esc>:CommandTBuffer<CR>
+let g:CommandTWildIgnore=&wildignore . ",**/bower_components/*,**/node_modules/*"
 
 " Omni and SuperTab
 set ofu=syntaxcomplete#Complete

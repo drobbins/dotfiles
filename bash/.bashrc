@@ -21,9 +21,6 @@ export NODE_PATH='/usr/local/lib/node_modules'
 # Stardog
 export STARDOG_HOME=/Users/robbinsd/Data/stardog
 
-# RVM
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" # Load RVM function
-
 # Server Command
 function server() {
   local port="${1:-8000}"
@@ -40,4 +37,6 @@ function server() {
 # add this to the bash_profile file if it aint there.
 . ~/code/z/z.sh
 
-PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+# RVM
+PATH=$HOME/.rvm/bin:$PATH # Add RVM to PATH for scripting
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" # Load RVM function
