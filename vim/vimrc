@@ -71,6 +71,10 @@ vnoremap > >gv
 " Plugins -----------------------------------------------------------------
 
 " Load Bundles using Pathogen
+let g:pathogen_disabled = []
+if !has("gui_running")
+    call add(g:pathogen_disabled, 'command-t')
+endif
 call pathogen#incubate()
 call pathogen#helptags()
 call pathogen#infect()
@@ -78,8 +82,8 @@ call pathogen#infect()
 " Solarized Colorscheme Settings (http://ethanschoonover.com/solarized)
 " colorscheme solarized
 " set background=dark
-
 colorscheme monokai
+
 " Command-T (https://wincent.com/products/command-t)
 noremap <leader>o <Esc>:CommandT<CR>
 noremap <leader>O <Esc>:CommandTFlush<CR>
