@@ -6,6 +6,7 @@ alias g="git"
 alias gl="git log --oneline --graph"
 alias gs="git status"
 alias gd="git diff"
+alias ga="git add -p"
 
 # Task Warrior Shortcuts
 alias t="task"
