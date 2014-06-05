@@ -19,11 +19,6 @@ alias nginx_stop="launchctl unload /usr/local/Cellar/nginx/1.0.7/org.nginx.nginx
 # php-fpm
 alias phpfm_start="/usr/local/Cellar/php/5.3.8/sbin/php-fpm"
 
-# Hub
-if ! type "hub" > /dev/null; then
-    alias git=hub
-fi
-
 # Docker
 alias docker='docker -H tcp://127.0.0.1:4243'
 
