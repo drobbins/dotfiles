@@ -9,7 +9,7 @@ source /opt/boxen/homebrew/etc/bash_completion.d/*
 #source /usr/local/etc/bash_completion.d/hub.bash_completion.sh
 
 # Git Prompt
-# source /usr/local/etc/bash_completion.d/git-prompt.sh
+source /opt/boxen/homebrew/etc/bash_completion.d/git-prompt.sh
 PS1='\[\e[1;31m\]\u\[\e[m\] at \[\e[1;31m\]\h\[\e[m\] in \[\e[1;31m\]\w\[\e[m\]$(__git_ps1 " on \[\e[1;31m\]%s\[\e[m\]")\n\[\e[1;31m\]$\[\e[m\] '
 
 # Use Homebrews Ruby Gems
