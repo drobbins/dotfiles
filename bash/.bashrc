@@ -40,3 +40,6 @@ function server() {
 # RVM
 PATH=$HOME/.rvm/bin:$PATH # Add RVM to PATH for scripting
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" # Load RVM function
+
+# Boxen
+[ -f /opt/boxen/env.sh ] && source /opt/boxen/env.sh
