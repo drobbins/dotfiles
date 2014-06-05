@@ -2,15 +2,15 @@ source ~/.aliases
 # Path
 export PATH=~/apps/bin:/usr/local/share/npm/bin:/usr/local/bin:/usr/local/sbin:$PATH
 
-# Git Prompt
-source /usr/local/etc/bash_completion.d/git-prompt.sh
-PS1='\[\e[1;31m\]\u\[\e[m\] at \[\e[1;31m\]\h\[\e[m\] in \[\e[1;31m\]\w\[\e[m\]$(__git_ps1 " on \[\e[1;31m\]%s\[\e[m\]")\n\[\e[1;31m\]$\[\e[m\] '
-
 # Assorted Completions
-source /usr/local/etc/bash_completion.d/*
+source /opt/boxen/homebrew/etc/bash_completion.d/*
 #source /usr/local/etc/bash_completion.d/git-completion.bash
 #source /usr/local/etc/bash_completion.d/git-flow-completion.bash
 #source /usr/local/etc/bash_completion.d/hub.bash_completion.sh
+
+# Git Prompt
+# source /usr/local/etc/bash_completion.d/git-prompt.sh
+PS1='\[\e[1;31m\]\u\[\e[m\] at \[\e[1;31m\]\h\[\e[m\] in \[\e[1;31m\]\w\[\e[m\]$(__git_ps1 " on \[\e[1;31m\]%s\[\e[m\]")\n\[\e[1;31m\]$\[\e[m\] '
 
 # Use Homebrews Ruby Gems
 export GEM_HOME='/usr/local/Cellar/gems/1.8'
