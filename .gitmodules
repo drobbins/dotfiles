@@ -33,7 +33,7 @@
 	url = https://github.com/mintplant/vim-literate-coffeescript.git
 [submodule "vim/bundle/emmet-vim"]
 	path = vim/bundle/emmet-vim
-	url = http://github.com/mattn/emmet-vim.git
+	url = https://github.com/mattn/emmet-vim.git
 [submodule "vim/bundle/puppet-syntax-vim"]
 	path = vim/bundle/puppet-syntax-vim
 	url = https://github.com/puppetlabs/puppet-syntax-vim.git
