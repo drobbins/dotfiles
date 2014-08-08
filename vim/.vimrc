@@ -33,7 +33,9 @@ set incsearch
 
 " Set relative line numbers for better movements and
 " assorted display options
-set rnu
+if version >= 703
+    set rnu
+endif
 set number
 set ruler
 set showcmd
