@@ -49,3 +49,6 @@ PATH=$HOME/.rvm/bin:$PATH # Add RVM to PATH for scripting
 
 # Boxen
 [ -f /opt/boxen/env.sh ] && source /opt/boxen/env.sh
+
+# ShellShock
+env x='() { :;}; >&2 echo "WARNING: SHELLSHOCK DETECTED"' bash --norc -c ':';
