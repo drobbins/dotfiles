@@ -1,6 +1,6 @@
 source ~/.aliases
 # Path
-export PATH=~/apps/bin:/usr/local/share/npm/bin:/usr/local/bin:/usr/local/sbin:$PATH
+export PATH=./node_modules/bin:~/apps/bin:/usr/local/share/npm/bin:/usr/local/bin:/usr/local/sbin:$PATH
 
 # Assorted Completions
 if [ `uname` == Darwin ]
