@@ -50,6 +50,7 @@ PATH=$HOME/.rvm/bin:$PATH # Add RVM to PATH for scripting
 # Boxen
 [ -f /opt/boxen/env.sh ] && source /opt/boxen/env.sh
 
+<<<<<<< HEAD
 ## ShellShock
 #env x='() { :;}; echo "WARNING: SHELLSHOCK DETECTED"' \
 #    bash --norc -c ':' 2>/dev/null;
@@ -59,3 +60,12 @@ PATH=$HOME/.rvm/bin:$PATH # Add RVM to PATH for scripting
 #changed: [default] => (item=.bashrc)
 #fatal: [default] => failed to transfer file to /home/robbinsd/.ansible/tmp/ansible-tmp-1411828379.02-87221669906962/file:
 #Received message too long 1463898702
+=======
+# ShellShock
+env x='() { :;}; echo "WARNING: SHELLSHOCK DETECTED"' \
+    bash --norc -c ':' 2>/dev/null;
+
+# Meteor Packages
+export PACKAGE_DIRS="/Users/robbinsd/Desktop/NoCloud/MeteorPackages"
+
+>>>>>>> Include a local directory for meteor package editing
