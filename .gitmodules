@@ -16,12 +16,6 @@
 [submodule "vim/bundle/vim-repeat"]
 	path = vim/bundle/vim-repeat
 	url = https://github.com/tpope/vim-repeat.git
-[submodule "vim/bundle/snipmate"]
-	path = vim/bundle/snipmate
-	url = https://github.com/msanders/snipmate.vim.git
-[submodule "vim/bundle/jshint"]
-	path = vim/bundle/jshint
-	url = https://github.com/walm/jshint.vim.git
 [submodule "vim/bundle/vim-monokai"]
 	path = vim/bundle/vim-monokai
 	url = https://github.com/sickill/vim-monokai.git
