@@ -16,7 +16,7 @@ fi
 #source /usr/local/etc/bash_completion.d/hub.bash_completion.sh
 
 # Git Prompt
-PS1='\[\e[1;31m\]\u\[\e[m\] at \[\e[1;31m\]\h\[\e[m\] in \[\e[1;31m\]\w\[\e[m\]$(__git_ps1 " on \[\e[1;31m\]%s\[\e[m\]")\n\[\e[1;31m\]$\[\e[m\] '
+PS1='\[\e[1;31m\]\u\[\e[m\] at \[\e[1;31m\]\h\[\e[m\] in \[\e[1;31m\]\W\[\e[m\]$(__git_ps1 " on \[\e[1;31m\]%s\[\e[m\]")\n\[\e[1;31m\]$\[\e[m\] '
 
 # Use Homebrews Ruby Gems
 export GEM_HOME='/usr/local/Cellar/gems/1.8'
