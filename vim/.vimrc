@@ -97,5 +97,5 @@ let g:CommandTWildIgnore=&wildignore . ",**/bower_components/*,**/node_modules/*
 set ofu=syntaxcomplete#Complete
 let g:SuperTabDefaultCompletionType = "context"
 
-" JSHint
-noremap <leader>l <Esc>:JSHint<CR>
+" Vim Sauce
+let g:sauce_path = "~/.vim/sauces"
