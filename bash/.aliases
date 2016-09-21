@@ -1,7 +1,7 @@
 # General Shortcuts
 alias v="vim"
 
-# Git Shortcuts
+# Git Shortcuts (require git)
 alias g="git"
 alias gl="git log --oneline --graph --decorate"
 alias gs="git status"
@@ -12,12 +12,11 @@ alias ga="git add -p"
 alias t="task"
 alias ta="task add"
 
-# nginx
-alias nginx_start="launchctl load /usr/local/Cellar/nginx/1.0.7/org.nginx.nginx.plist"
-alias nginx_stop="launchctl unload /usr/local/Cellar/nginx/1.0.7/org.nginx.nginx.plist"
-
-# php-fpm
-alias phpfm_start="/usr/local/Cellar/php/5.3.8/sbin/php-fpm"
+# Docker (require docker)
+## Remove exited docker containers
+alias drmae='docker rm $(docker ps -qa --no-trunc --filter "status=exited")'
+## Remove dangling (unused) docker images
+alias drmi='docker rmi $(docker images --filter "dangling=true" -q --no-trunc)'
 
 # Easier navigation: .., ..., ~ and -
 alias ..="cd .."
@@ -50,3 +49,6 @@ function sparqly() {
   open "http://localhost:${port}"
   sparql --serve http://localhost:$port/sparql
 }
+
+# Bulk Moves (require mmv)
+alias bbrn="mcp -d '*_*_*.*' '#2.#4'"

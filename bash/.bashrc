@@ -1,6 +1,6 @@
 source ~/.aliases
 # Path
-export PATH=./node_modules/bin:~/apps/bin:/usr/local/share/npm/bin:/usr/local/bin:/usr/local/sbin:$PATH
+export PATH=./node_modules/bin:~/Applications/bin:/usr/local/share/npm/bin:/usr/local/bin:/usr/local/sbin:$PATH
 
 # Assorted Completions
 if [ `uname` == Darwin ]
@@ -50,7 +50,17 @@ function server() {
 # Meteor Packages
 export PACKAGE_DIRS="/Users/robbinsd/Desktop/NoCloud/MeteorPackages"
 
-# Docker
-export DOCKER_HOST=tcp://192.168.59.103:2376
-export DOCKER_CERT_PATH=/Users/robbinsd/.boot2docker/certs/boot2docker-vm
-export DOCKER_TLS_VERIFY=1
+# History Improvements
+export HISTCONTROL=ignoredups:erasedups  # no duplicate entries
+export HISTSIZE=100000                   # big big history
+export HISTFILESIZE=100000               # big big history
+shopt -s histappend                      # append to history, don't overwrite it
+# Save and reload the history after each command finishes
+export PROMPT_COMMAND="history -a; history -c; history -r; $PROMPT_COMMAND"
+
+# added by travis gem
+[ -f /Users/robbinsd/.travis/travis.sh ] && source /Users/robbinsd/.travis/travis.sh
+
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="/Users/robbinsd/.sdkman"
+[[ -s "/Users/robbinsd/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/robbinsd/.sdkman/bin/sdkman-init.sh"
