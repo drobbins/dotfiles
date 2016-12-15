@@ -1,19 +1,16 @@
 source ~/.aliases
 # Path
-export PATH=./node_modules/bin:~/Applications/bin:/usr/local/share/npm/bin:/usr/local/bin:/usr/local/sbin:$PATH
+export PATH=./node_modules/bin:~/Applications/bin:$PATH
 
 # Assorted Completions
 if [ `uname` == Darwin ]
 then
-    source /opt/boxen/homebrew/etc/bash_completion.d/*
-    source /opt/boxen/homebrew/etc/bash_completion.d/git-prompt.sh
+    source /usr/local/etc/bash_completion.d/*
+    source /usr/local/etc/bash_completion.d/git-prompt.sh
 else
     source /etc/bash_completion.d/git
     source ~/dotfiles/git/git-prompt.sh
 fi
-#source /usr/local/etc/bash_completion.d/git-completion.bash
-#source /usr/local/etc/bash_completion.d/git-flow-completion.bash
-#source /usr/local/etc/bash_completion.d/hub.bash_completion.sh
 
 # Git Prompt
 PS1='\[\e[1;31m\]\u\[\e[m\] at \[\e[1;31m\]\h\[\e[m\] in \[\e[1;31m\]\W\[\e[m\]$(__git_ps1 " on \[\e[1;31m\]%s\[\e[m\]")\n\[\e[1;31m\]$\[\e[m\] '
